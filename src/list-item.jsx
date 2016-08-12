@@ -36,7 +36,7 @@ module.exports = React.createClass({
       <span className="input-group-btn">
         {this.changesButtons()}
         <button
-          className="btn btn-default"
+          className="btn btn-warning"
           onClick={this.handleDelete}>
           Delete
         </button>
@@ -50,12 +50,12 @@ module.exports = React.createClass({
       return [
         <button
           onClick={this.handleSave}
-          className="btn btn-default">
+          className="btn btn-success">
           Save
         </button>,
         <button
           onClick={this.handleUndo}
-          className="btn btn-default">
+          className="btn btn-info">
           Undo
         </button>
       ]
