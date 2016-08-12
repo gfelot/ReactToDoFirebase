@@ -7,7 +7,7 @@ ReactTodoFirebase
 
 ```
 	> git clone https://git@github.com:gfelot/ReactToDoFirebase.git
-	> cd ReactReactToDoFirebase
+	> cd ReactToDoFirebase
 	> npm install
 	> gulp
 ```
